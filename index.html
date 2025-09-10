@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing my projects and skills">
+    <title>Niko De Vera | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Floating background elements -->
+    <div class="floating-element floating-element--1"></div>
+    <div class="floating-element floating-element--2"></div>
+    
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Niko De Vera</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="main">
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>Hello! I'm Niko, a passionate web developer with a keen eye for design and a commitment to creating accessible, user-friendly websites. With a background in computer science and design, I bring both technical expertise and creative problem-solving to every project.</p>
+                        <p>When I'm not coding, you can find me hiking in the mountains or exploring new coffee shops in the city.</p>
+                    </div>
+                    <div class="about__image">
+                        <img src="assets/dev.jpg" alt="Niko De Vera, a professional web developer" width="400" height="400">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section__title">My Projects</h2>
+                <div class="projects__grid">
+                    <article class="project-card">
+                        <h3 class="project-card__title">E-commerce Website</h3>
+                        <p class="project-card__description">A fully responsive e-commerce platform built with modern web technologies, featuring product filtering and a shopping cart.</p>
+                        <a href="#" class="project-card__link" aria-label="View E-commerce Website project">View Project</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-card__title">Recipe Finder App</h3>
+                        <p class="project-card__description">A web application that helps users discover recipes based on available ingredients, with dietary preference filters.</p>
+                        <a href="#" class="project-card__link" aria-label="View Recipe Finder App project">View Project</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-card__title">Weather Dashboard</h3>
+                        <p class="project-card__description">A weather application providing current conditions and forecasts with a clean, intuitive interface.</p>
+                        <a href="#" class="project-card__link" aria-label="View Weather Dashboard project">View Project</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <p class="footer__text">
+                © <span class="year">2025</span> Niko De Vera. 
+                <a href="mailto:niko.devera@example.com" class="footer__link">niko.devera@example.com</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
